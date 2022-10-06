@@ -1,0 +1,156 @@
+@media (max-width:400px) {
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+    }
+    ul,li {
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        padding-left: 10px;
+        padding-top: 3px;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+    li:hover {
+        color: aqua;
+    }
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    span {
+        color: gray;
+    }
+    /* block */
+    .block1 {
+        height: 200px;
+        background-image: url(./background/back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block {
+        height: 50px;
+        background-color: rgba(255, 255, 255,0.3);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /* block2 */
+    .block2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: transparent;
+        height: 50px;
+        position: relative;
+        top: -40px;
+    }
+    .box1{
+        width: 100px;
+        height: 70px;
+        background-image: url('./block2/image1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 25px black;
+    }
+    .box2{
+        width: 100px;
+        height: 70px;
+        background-image: url('./block2/image2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 25px black;
+    }
+    .box3{
+        width: 100px;
+        height: 70px;
+        background-image: url('./block2/imag3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 0 25px black;
+        background-position: 0 -40px;
+    }
+    .pa1 {
+        width: 20px;
+        height: 25px;
+        font-size: 18px;
+        background-color: gainsboro;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.25s;
+    }
+    .pa1:hover {
+        background-color: gray;
+    }
+    /* block3 */
+    .block3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+        font-size: 10px;
+    }
+    .word1 {
+        padding: 10px;
+        width: 300px;
+        height: 150px;
+        box-shadow: 0 0 11px black;
+    }
+    .word2 {
+        padding: 5px;
+        width: 90px;
+        height: 80px;
+        box-shadow: 0 0 11px black;
+        position: relative;
+        top: -30px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+.p1 {
+    padding-top: 7px;
+    color: gray;
+}
+/* block4 */
+.block4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    background-image: url(./background/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4 {
+width: 60px;
+height: 60px;
+background-color: black;
+border-radius: 80px;
+position: relative;
+top: -15px;
+}
+.box5 {
+    width: 20px;
+height: 20px;
+background-color: black;
+border-radius: 80px;
+position: relative;
+top: 65px;
+}
+.box6 {
+    width: 80px;
+height: 80px;
+background-color: black;
+border-radius: 80px;
+position: relative;
+top: -25px;
+}
+}
